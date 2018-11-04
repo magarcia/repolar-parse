@@ -1,0 +1,45 @@
+{
+  "name": "repolar-parse",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "homepage": "https://github.com/magarcia/repolar",
+  "repository": "https://github.com/magarcia/repolar",
+  "bugs": "https://github.com/magarcia/repolar/issues",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "npm run clean && tsc",
+    "clean": "rm -r dist && mkdir dist",
+    "start": "npm run build && node dist/index.js",
+    "lint": "tslint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "repolar",
+    "polar bear",
+    "bear app"
+  ],
+  "author": "Martin Garcia (https://github.com/magarcia/)",
+  "license": "MIT",
+  "dependencies": {
+    "remark-html": "^8.0.0",
+    "remark-parse": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.7",
+    "@types/node": "^10.12.0",
+    "husky": "^1.1.2",
+    "jest": "^23.6.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3",
+    "testcheck": "^1.0.0-rc.2",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.1.3",
+    "unified": "^7.0.0",
+    "unified-stream": "^1.0.2"
+  }
+}
