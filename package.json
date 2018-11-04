@@ -9,7 +9,7 @@
   "scripts": {
     "prepare": "npm run build",
     "build": "npm run clean && tsc",
-    "clean": "rm -r dist && mkdir dist",
+    "clean": "rimraf dist && mkdir dist",
     "start": "npm run build && node dist/index.js",
     "lint": "tslint",
     "test": "jest",
@@ -36,6 +36,7 @@
     "jest": "^23.6.0",
     "lint-staged": "^7.3.0",
     "prettier": "^1.14.3",
+    "rimraf": "^2.6.2",
     "testcheck": "^1.0.0-rc.2",
     "ts-jest": "^23.10.4",
     "tslint": "^5.11.0",
