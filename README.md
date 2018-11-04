@@ -32,7 +32,7 @@ process.stdin.pipe(createStream(processor)).pipe(process.stdout);
 
 <!-- Definitions -->
 
-[license]: https://github.com/magarcia/repolar/blob/master/license
+[license]: https://github.com/magarcia/repolar-parse/blob/master/LICENSE
 [author]: http://github.com/magarcia
 [npm]: https://docs.npmjs.com/cli/install
 [unified]: https://github.com/unifiedjs/unified

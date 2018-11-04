@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
-  "homepage": "https://github.com/magarcia/repolar",
-  "repository": "https://github.com/magarcia/repolar",
-  "bugs": "https://github.com/magarcia/repolar/issues",
+  "homepage": "https://github.com/magarcia/repolar-parse",
+  "repository": "https://github.com/magarcia/repolar-parse",
+  "bugs": "https://github.com/magarcia/repolar-parse/issues",
   "scripts": {
     "prepare": "npm run build",
     "build": "npm run clean && tsc",
