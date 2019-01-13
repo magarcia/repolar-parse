@@ -1,5 +1,7 @@
 # repolar-parse [![Travis][build-badge]][build-status] [![Coverage][coverage-badge]][coverage-status] [![CodeClimate][codeclimate-badge]][codeclimate-status] [![Version][npm-badge]][npm-status] [![Requirements][requirements-badge]][requirements-status]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/magarcia/repolar-parse.svg)](https://greenkeeper.io/)
+
 Parser for [**unified**][unified]. Parses [Polar Bear markup language](https://bear.app/faq/Markup%20:%20Markdown/Polar%20Bear%20markup%20language/) to an
 [**MDAST**][mdast] syntax tree.
 

@@ -25,7 +25,7 @@
   "author": "Martin Garcia (https://github.com/magarcia/)",
   "license": "MIT",
   "dependencies": {
-    "remark-html": "^8.0.0",
+    "remark-html": "^9.0.0",
     "remark-parse": "^6.0.1"
   },
   "devDependencies": {
@@ -34,7 +34,7 @@
     "coveralls": "^3.0.2",
     "husky": "^1.1.2",
     "jest": "^23.6.0",
-    "lint-staged": "^7.3.0",
+    "lint-staged": "^8.1.0",
     "prettier": "^1.14.3",
     "rimraf": "^2.6.2",
     "testcheck": "^1.0.0-rc.2",
