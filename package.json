@@ -32,7 +32,7 @@
     "@types/jest": "^24.0.10",
     "@types/node": "^11.11.6",
     "coveralls": "^3.0.2",
-    "husky": "^1.1.2",
+    "husky": "^2.0.0",
     "jest": "^24.5.0",
     "lint-staged": "^8.1.0",
     "prettier": "^1.14.3",
