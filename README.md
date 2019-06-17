@@ -1,7 +1,5 @@
 # repolar-parse [![Travis][build-badge]][build-status] [![Coverage][coverage-badge]][coverage-status] [![CodeClimate][codeclimate-badge]][codeclimate-status] [![Version][npm-badge]][npm-status] [![Requirements][requirements-badge]][requirements-status]
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/magarcia/repolar-parse.svg)](https://greenkeeper.io/)
-
 Parser for [**unified**][unified]. Parses [Polar Bear markup language](https://bear.app/faq/Markup%20:%20Markdown/Polar%20Bear%20markup%20language/) to an
 [**MDAST**][mdast] syntax tree.
 
@@ -47,5 +45,5 @@ process.stdin.pipe(createStream(processor)).pipe(process.stdout);
 [codeclimate-status]: https://codeclimate.com/github/magarcia/repolar-parse
 [npm-badge]: http://img.shields.io/npm/v/repolar-parse.svg?style=flat
 [npm-status]: https://npmjs.org/package/repolar-parse
-[requirements-badge]: https://img.shields.io/requires/github/magarcia/repolar-parse.svg
-[requirements-status]: https://requires.io/github/magarcia/repolar-parse/requirements/?branch=master
+[requirements-badge]: https://david-dm.org/magarcia/repolar-parse.svg
+[requirements-status]: https://david-dm.org/magarcia/repolar-parse
