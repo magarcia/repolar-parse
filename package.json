@@ -25,7 +25,7 @@
   "author": "Martin Garcia (https://github.com/magarcia/)",
   "license": "MIT",
   "dependencies": {
-    "remark-html": "^9.0.0",
+    "remark-html": "^10.0.0",
     "remark-parse": "^6.0.1"
   },
   "devDependencies": {
