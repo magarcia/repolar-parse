@@ -36,7 +36,7 @@
     "jest": "^24.5.0",
     "lint-staged": "^9.1.0",
     "prettier": "^1.14.3",
-    "rimraf": "^2.6.2",
+    "rimraf": "^3.0.0",
     "testcheck": "^1.0.0-rc.2",
     "ts-jest": "^24.0.0",
     "tslint": "^5.11.0",
