@@ -8,6 +8,7 @@ import {
   list,
   todos
 } from "./lib/tokenize";
+import mailto from "./lib/tokenize/mailto";
 
 const remark = require("remark-parse");
 
@@ -50,6 +51,9 @@ export function setInlineTokenizers(Parser: any) {
   tokenizers.emphasis = emphasis;
   tokenizers.strong = strong;
   tokenizers.deletion = strikethrough;
+
+  tokenizers.mailto = mailto;
+  methods.splice(methods.indexOf("url"), 0, "mailto");
 
   tokenizers.highlight = highlight;
   methods.splice(methods.indexOf("text") + 1, 0, "highlight");

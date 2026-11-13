@@ -13,6 +13,12 @@ npm install repolar-parse
 
 ## Usage
 
+Install the CommonJS dependencies used by this example:
+
+```sh
+npm install unified@^9 unified-stream@^1 remark-html@^13.0.2
+```
+
 ```js
 var unified = require("unified");
 var createStream = require("unified-stream");
@@ -26,6 +32,13 @@ var processor = unified()
 process.stdin.pipe(createStream(processor)).pipe(process.stdout);
 ```
 
+The parser uses [`@brodybits/remark-parse`][parser-fork] through an npm alias.
+This fork preserves the legacy `Parser` tokenizer API and uses a patched `trim`
+dependency. Official `remark-parse` versions through 8 require vulnerable
+`trim@0.0.1`; version 9 replaces the tokenizer API used by this package.
+
+HTML compilation is optional. Install `remark-html` separately when needed.
+
 ## License
 
 [MIT][license] © [Martin Garcia][author]
@@ -37,6 +50,7 @@ process.stdin.pipe(createStream(processor)).pipe(process.stdout);
 [npm]: https://docs.npmjs.com/cli/install
 [unified]: https://github.com/unifiedjs/unified
 [mdast]: https://github.com/syntax-tree/mdast
+[parser-fork]: https://www.npmjs.com/package/@brodybits/remark-parse/v/8.0.6
 [build-badge]: https://img.shields.io/travis/magarcia/repolar-parse/master.svg
 [build-status]: https://travis-ci.org/magarcia/repolar-parse
 [coverage-badge]: http://img.shields.io/coveralls/magarcia/repolar-parse.svg?style=flat
