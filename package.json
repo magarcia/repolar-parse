@@ -25,8 +25,7 @@
   "author": "Martin Garcia (https://github.com/magarcia/)",
   "license": "MIT",
   "dependencies": {
-    "remark-html": "^15.0.1",
-    "remark-parse": "^7.0.0"
+    "remark-parse": "npm:@brodybits/remark-parse@^8.0.6"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
@@ -36,6 +35,7 @@
     "jest": "^25.1.0",
     "lint-staged": "^12.3.1",
     "prettier": "^2.0.1",
+    "remark-html": "^13.0.2",
     "rimraf": "^3.0.0",
     "testcheck": "^1.0.0-rc.2",
     "ts-jest": "^25.2.0",
